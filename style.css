@@ -368,13 +368,19 @@ nav i {
 .travel-section {
   padding: 60px;
   background: #fff;
+  position: relative;
+}
+
+.travel-section > img {
+  position: absolute;
+  right: 140;
 }
 
 .content-part {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  border: 2px solid #1e90ff;
+  /* border: 2px solid #1e90ff; */
   padding: 40px;
   gap: 40px;
 }
@@ -538,7 +544,7 @@ nav i {
   height: 50px;
   border-radius: 50%;
   object-fit: cover;
-  border: 2px solid #0095ff;
+  /* border: 2px solid #0095ff; */
 }
 
 .author-details {
